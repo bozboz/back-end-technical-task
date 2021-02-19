@@ -16,7 +16,7 @@ for n in range(1..10):
   b = c 
 ```
 
-2. The following PHP functions are riddled with error, please fix them:
+2. The following PHP functions are riddled with errors, please fix them:
 
 ```
     /**
@@ -73,7 +73,7 @@ for n in range(1..10):
     }
 ```
 
-4. Write a function that searches an array for the string 'Bozboz' and returns its location in the array. There can only be one 'Bozboz' so it should throw and exception if there is more than one. If 'Bozboz' is not found in the array it should return `-1`.
+3. Write a function that searches an array for the string 'Bozboz' and returns its location in the array. There can only be one 'Bozboz' so it should throw and exception if there is more than one. If 'Bozboz' is not found in the array it should return `-1`.
 
 ```
 findBozboz(['Bozboz', 'Foo', 'Bar']);
@@ -83,7 +83,7 @@ findBozboz(['Foo', 'Bar', 'Baz']);
 // Should return -1
 ```
 
-5. Demonstrate how you would refactor* the following code. Include a brief list of the changes you made along with the improved code.
+4. Demonstrate how you would refactor* the following code. Include a brief list of the changes you made along with the improved code.
 
     _*Code refactoring is the process of restructuring existing computer code—changing the factoring—without changing its external behavior. Refactoring improves nonfunctional attributes of the software._
 
